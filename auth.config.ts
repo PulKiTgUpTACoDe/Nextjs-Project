@@ -20,5 +20,5 @@ export const authConfig = {
       return true;
     },
   },
-  providers: [github,google,facebook,twitter], // Add providers with an empty array for now
+  providers: [github,google,facebook,twitter], 
 } satisfies NextAuthConfig;
